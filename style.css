@@ -131,7 +131,8 @@ a, button {
 }
 .quote p {
 	font-size: 60px;
-	color: #2e2e2e;
+	color: #2f55bd;
+	font-weight: 1000;
 }
 .q-btn {
 	margin-top: 20px;
@@ -211,7 +212,7 @@ a, button {
 }
 
 /*Common things in all sections*/
-#about_section, #services_section, #counselors_section, #resources_section, #contactus_section {
+#about_section, #services_section, #team_section, #resources_section, #contactus_section {
 	font-family: 'Open Sans', sans-serif;
 	color: #2E3D49;
 	position: relative;
@@ -366,7 +367,7 @@ a, button {
 	margin-right: 20px;
 }
 
-/*counselors SECTION*/
+/*TEAM SECTION*/
 .totalcard {
 	width: 100%;
 	display: flex;
