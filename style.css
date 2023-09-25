@@ -17,7 +17,7 @@ body {
 }
 
 header {
-	height: 90vh;
+	height: 70vh;
 	/* background: #000; */
 }
 .black {
@@ -54,12 +54,12 @@ nav ul li a {
 nav ul li a:hover {
 	color: #fff;
 	border-radius: 5px;
-	background: #DF2771;
+	background: #4E91FF;
 }
 .active {
 	color: #fff;
 	border-radius: 5px;
-	background: #DF2771;
+	background: #4E91FF;
 }
 .srch {
 	padding: 2px 10px;
@@ -84,12 +84,12 @@ nav ul li a:hover {
 .get-started {
 	margin-left: 50px;
 	padding: 5px 20px;
-	border: 2px solid #DF2771;
+	border: 2px solid #4E91FF;
 	border-radius: 20px;
 	text-decoration: none;
 	
 	transition: .5s;
-	background-color: #DF2771;
+	background-color: #4E91FF;
 	color: #fff;
 }
 .get-started:hover {
@@ -123,33 +123,37 @@ a, button {
 	width: 600px;
 	transform: translateY(-50px);
 }
-.quote h5 {
+.quote h2 {
 	margin-top: 20px;
 	color: #0009;
-	line-height: 20px;
+	line-height: 30px;
+
 }
 .quote p {
-	font-size: 50px;
+	font-size: 60px;
 	color: #2e2e2e;
 }
-.quote .play {
+.q-btn {
 	margin-top: 20px;
 	display: flex;
 	/* justify-content: center; */
 	align-items: center;
+
+	margin-left: 0px;
+	padding: 5px 20px;
+	border: 2px solid #4E91FF;
+	border-radius: 20px;
+	text-decoration: none;
+	
+	transition: .5s;
+	background-color: #4E91FF;
+	color: #fff;
 }
-.quote .play img {
-	width: 45px;
-	cursor: pointer;
-	filter: drop-shadow(0 0 10px #0002);
+.q-btn:hover {
+	color: #2e2e2e;
+	background: #fff;
 }
-.quote .play span a{
-	margin-left: 10px;
-	font-size: 20px;
-	font-weight: 900;
-	color: rgba(0, 0, 0, 0.8);
-	cursor: pointer;
-}
+
 .svg-image img{
 	width: 500px;
 	filter: drop-shadow(0 20px 10px rgba(0,0,0,0.2));
@@ -164,7 +168,7 @@ a, button {
 .side-menu {
 	width: 100%;
 	height: 100%;
-	background: rgba(182, 33, 90, 0.993);
+	background: rgba(33, 33, 182, 0.993);
 	position: absolute;
 	top: 0;
 	transition: .8s;
@@ -176,7 +180,7 @@ a, button {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	/* background: #FA4B37; */
+	/* background: #0074E4; */
 }
 .side-menu ul li {
 	list-style: none;
@@ -189,7 +193,7 @@ a, button {
 }
 .side-menu ul li:hover a{
 	background: #fff;
-	color: #DF2771;
+	color: #4E91FF;
 }
 .side-menu ul li a{
 	color: #FFF;
@@ -205,29 +209,9 @@ a, button {
 	cursor: pointer;
 	margin: 10px;
 }
-.user {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 10%;
-}
-.user img {
-	width: 60px;
-	border-radius: 50%;
-	border: 2px solid #fff;
-	filter: drop-shadow(0 10px 20px #0004);
-	margin-right: 30px;
-	cursor: pointer;
-}
-.user p {
-	color: #fff;
-	cursor: pointer;
-}
-.user img, .user p {
-	opacity: 1;
-}
+
 /*Common things in all sections*/
-#about_section, #portfolio_section, #team_section, #services_section, #contactus_section {
+#about_section, #portfolio_section, #team_section, #resources_section, #contactus_section {
 	font-family: 'Open Sans', sans-serif;
 	color: #2E3D49;
 	position: relative;
@@ -282,7 +266,7 @@ a, button {
 }
 .smbox .data {
 	font-size: 80px;
-	color: #FA6146;	
+	color: #46A5FA;	
 }
 .smbox .det {
 	font-size: 20px;
@@ -364,14 +348,14 @@ a, button {
 	width: 250px;
 	padding: 28px;
 	border-radius: 10px;
-	border: 1px solid #FA4B37;
+	border: 1px solid #0074E4;
 	font-size: 15px;
 	color: #272529;
 	font-family: cursive;
 	text-decoration: none;
 }
 .cbox .det a:hover {
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #0074E4, #4E91FF);
 	color: white;
 }
 .cbox .det a:hover img{
@@ -455,7 +439,7 @@ a, button {
 	align-self: center;
 }
 .btn-roshan:hover {
-	background: rgba(0,255,0,0.7);
+	background: rgba(0,0,255,0.5);
 	color: #fff;
 }
 .btn-roshan2:hover {
@@ -513,7 +497,7 @@ a, button {
 
 /*Contact Us Section*/
 .csec {
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #0074E4, #4E91FF);
 	background-attachment: fixed; 
 	position: absolute;
 	width: 100%;
@@ -563,7 +547,7 @@ a, button {
 	font-weight: 600;
 }
 .imp {
-	color: red;
+	color: blue;
 }
 form textarea {
 	width: 100%;
@@ -578,7 +562,7 @@ form textarea {
 }
 #csubmit {
 	margin-top: 20px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #0074E4, #4E91FF);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
@@ -589,7 +573,7 @@ form textarea {
 	cursor: pointer;
 }
 
-/*REVIEW SECTION*/
+/*COUNSELORS SECTION*/
 #makeitfull {
 	display: flex;
 	justify-content: center;
@@ -611,7 +595,7 @@ form textarea {
 .rev-container .rev-card {
 	/*overflow: hidden;*/
 	width: 550px;
-	height: 240px;
+	height: 260px;
 	margin-bottom: 40px;
 	background: #fff;
 	display: flex;
@@ -743,7 +727,7 @@ form textarea {
 }
 .feed #csubmit {
 	margin-top: 25px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #0074E4, #4E91FF);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
@@ -796,7 +780,7 @@ footer .right-col h1{
 footer .border{
 	width: 100px;
 	height: 4px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #0074E4, #4E91FF);
 	margin: 2px;
 }
 footer .newsletter-form {
@@ -826,7 +810,7 @@ footer .btn {
 	padding: 18px 40px;
 	font-size: 16px;
 	color: #f1f1f1;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #0074E4, #4E91FF);
 	border: none;
 	font-weight: 700;
 	outline: none;
@@ -872,7 +856,7 @@ footer .btn:hover {
 		/* position: fixed; */
 		/* top: 0; */
 	}
-	.quote p, .quote h5, .play {
+	.quote p, .quote h5, .q-btn {
 		justify-content: center;
 		text-align: center;
 	}
