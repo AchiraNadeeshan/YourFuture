@@ -24,16 +24,16 @@
 <!-- Navigation Bar -->
 	<header id="header">
 		<nav>
-			<div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
+			<div class="logo"><img src="images/icon/logo.png" style="width: 60px; alt="logo"></div>
 			<ul>
 				<li><a class="active" href="">Home</a></li>
-				<li><a href="#about_section">About Us</a></li>
-				<li><a href="#portfolio_section">Portfolio</a></li>
-				<li><a href="#team_section">Team</a></li>
-				<li><a href="#resources_section">resources</a></li>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#counselors_section">Counselors</a></li>
+				<li><a href="#resources_section">Resources</a></li>
 				<li><a href="#contactus_section">Contact</a></li>
 			</ul>
-			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/searchh.png" alt="search" onclick=slide()></div>
 			<a class="get-started" href="login.html">Sign In</a>
 			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
 		</nav>
@@ -46,22 +46,24 @@
 				</div>
 			</div>
 			<div class="svg-image">
-				<img src="images/extra/svg1.jpg" alt="svg">
+				<img src="images/extra/svg1.png" alt="svg">
 			</div>
 		</div>
 		<div class="side-menu" id="side-menu">
 			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
 			<ul>
-				<li><a href="#about_section">About Us</a></li>
-				<li><a href="#portfolio_section">Portfolio</a></li>
-				<li><a href="#team_section">Team</a></li>
-				<li><a href="#resources_section">resources</a></li>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#counselors_section">Counselors</a></li>
+				<li><a href="#resources_section">Resources</a></li>
 				<li><a href="#contactus_section">Contact</a></li>
-				<li><a href="#feedBACK">Feedback</a></li>
 			</ul>
 		</div>
 	</header>
-	
+<div id="makeitfull">
+	<a href="#about_section"><img src="images/icon/makeitfull.png"></a>
+</div>	
 <!-- ABOUT -->
 	<div class="diffSection" id="about_section">
 		<center><p style="font-size: 50px; padding: 100px">About Us</p></center>
@@ -79,8 +81,8 @@
 	</div>
 
 
-<!-- PORTFOLIO -->
-	<div class="diffSection" id="portfolio_section">
+<!-- SERVICES -->
+	<div class="diffSection" id="services_section">
 		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">What We Provide</p></center>
 		<div class="content">
 			<p>
@@ -90,9 +92,9 @@
 	</div>
 	<div class="course">
 		<center><div class="cbox">
-		<div class="det"><a href=""><img src="">Personalized Guidance</a></div>
-		<div class="det"><a href=""><img src="">Comprehensive Articles</a></div>
-		<div class="det"><a href=""><img src="">Self Learning Resources</a></div>
+		<div class="det"><a href="#counselors_section"><img src="">Personalized Guidance</a></div>
+		<div class="det"><a href="https://www.reddit.com/r/YourFutureLK/"><img src="">Comprehensive Articles</a></div>
+		<div class="det"><a href="#resources_section"><img src="">Self Learning Resources</a></div>
 		<div class="det"><a href="https://www.reddit.com/r/YourFutureLK/"><img src="">Supportive Community</a></div>
 
 		</div></center>
@@ -103,7 +105,7 @@
 	<a href="#review_section"><img src="images/icon/makeitfull.png"></a>
 </div>
 <div class="review">
-	<div class="diffSection" id="review_section">
+	<div class="diffSection" id="counselors_section">
 		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">Our Career Counselors</p></center>
 	</div>
 	<div class="rev-container">
@@ -167,12 +169,12 @@
 	<div class="diffSection" id="resources_section">
 	<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Self Learning Resources</p></center>
 	</div>
-	<a href="subjects/computer_courses.html"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Free Online Computer Courses</p></div></a>
-	<a href="subjects/jee.html"><div class="s-card"><img src="images/icon/brainbooster.png"><p>Building Concepts for Competitive Exams</p></div></a>
-	<a href="#"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Online Video Lectures</p></div></a>
-	<a href="subjects/jee.html#sample_papers"><div class="s-card"><img src="images/icon/papers.jpg"><p>Sample Papers of Various Competitive Exams</p></div></a>
-	<a href="#"><div class="s-card"><img src="images/icon/p3.png"><p>Performance and Ranking Report</p></div></a>
-	<a href="#contactus_section"><div class="s-card"><img src="images/icon/discussion.png"><p>Discussion with Our Tutors & Mentors</p></div></a>
+	<a href="subjects/computer_courses.html"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Free Online Computer Science Courses</p></div></a>
+	<a href="subjects/stem.html"><div class="s-card"><img src="images/icon/brainbooster.png"><p>Building Concepts for Competitive Exams</p></div></a>
+	<a href="https://open.uom.lk/lms/my/"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Online Video Lectures</p></div></a>
+	<a href="subjects/stem.html#sample_papers"><div class="s-card"><img src="images/icon/papers.jpg"><p>Sample Papers of Various Competitive Exams</p></div></a>
+	<a ><div class="s-card"><img src="images/icon/p3.png"><p>Performance and Ranking Report (Coming Soon)</p></div></a>
+	<a href="https://www.reddit.com/r/YourFutureLK/"><div class="s-card"><img src="images/icon/discussion.png"><p>Discussion with Our Tutors & Mentors</p></div></a>
 	<a href="subjects/quiz.html"><div class="s-card"><img src="images/icon/q1.png"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a>
 	<a href="#contactus_section"><div class="s-card"><img src="images/icon/help.png"><p>24x7 Online Support</p></div></a>
 </div>
@@ -183,7 +185,7 @@
 		<div class="csec"></div>
 		<div class="back-contact">
 			<div class="cc">
-			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+			<form action="mailto:hrachiranadeeshan@gmail.com" method="post" enctype="text/plain">
 				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
 				<center>
 				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
@@ -207,7 +209,7 @@
 	<footer>
 		<div class="footer-container">
 			<div class="left-col">
-				<img src="images/icon/logo - Copy.png" style="width: 200px;">
+				<img src="images/icon/logo.png" style="width: 200px;">
 				<div class="logo"></div>
 				<div class="social-media">
 					<a href="#"><img src="images/icon\fb.png"></a>
@@ -218,7 +220,7 @@
 				</div><br><br>
 				<p class="rights-text">Copyright © 2023 YourFuture,  All Rights Reserved.</p>
 				<br><p><img src="images/icon/location.png"> <br>SLTC Research University<br>Meepe, Padukka.</p><br>
-				<p><img src="images/icon/phone.png"><br> +94-234-567-890<br><img src="images/icon/mail.png"><br>contact@yourfuture.com</p>
+				<p><img src="images/icon/phone.png"><br> +94-234-567-890<br><img src="images/icon/mail.png"><br>hrachiranadeeshan@gmail.com</p>
 			</div>
 			<div class="right-col">
 				<h1 style="color: #fff">Our Newsletter</h1>

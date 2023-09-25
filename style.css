@@ -17,7 +17,7 @@ body {
 }
 
 header {
-	height: 70vh;
+	height: 65vh;
 	/* background: #000; */
 }
 .black {
@@ -113,7 +113,7 @@ a, button {
 	text-align: center;
 }
 .head-container {
-	margin-top: 245px;
+	margin-top: 150px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -211,7 +211,7 @@ a, button {
 }
 
 /*Common things in all sections*/
-#about_section, #portfolio_section, #team_section, #resources_section, #contactus_section {
+#about_section, #services_section, #counselors_section, #resources_section, #contactus_section {
 	font-family: 'Open Sans', sans-serif;
 	color: #2E3D49;
 	position: relative;
@@ -229,7 +229,7 @@ a, button {
 	font-size: 1.1em;
 }
 
-/*PORTFOLIO*/
+/*SERVICES*/
 .extra {
 	width: 100%;
 }
@@ -366,7 +366,7 @@ a, button {
 	margin-right: 20px;
 }
 
-/*TEAM SECTION*/
+/*counselors SECTION*/
 .totalcard {
 	width: 100%;
 	display: flex;
@@ -438,14 +438,7 @@ a, button {
 	margin-left: 90px;
 	align-self: center;
 }
-.btn-roshan:hover {
-	background: rgba(0,0,255,0.5);
-	color: #fff;
-}
-.btn-roshan2:hover {
-	background: rgba(0,0,255,0.5);
-	color: #fff;
-}
+
 .card-title {
 	font-size: 17px;
 	color: #343A40;
@@ -454,13 +447,12 @@ a, button {
 }
 
 /*Service Section*/
-/*Service Section*/
 .service-swipe {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b3.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0),rgb(0, 0, 0)),url("images/extra/b3.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -479,8 +471,8 @@ a, button {
 	text-align: center;
 	width: 350px;
 	height: 200px;
-	box-shadow: inset 0 0 20px rgba(255,255,255,0.05),
-					0 0 50px rgba(0,0,0,0.8);
+	box-shadow: inset 0 0 20px rgb(255, 255, 255),
+					0 0 50px rgb(0, 0, 0);
 	border-radius: 5px;
 	cursor: pointer;
 	transition-duration: .5s;
